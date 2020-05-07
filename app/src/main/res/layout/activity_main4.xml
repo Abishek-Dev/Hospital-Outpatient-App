@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="#00BCD4"
+        tools:ignore="MissingConstraints">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="350dp"
+                android:src="@drawable/ayush"
+                android:id="@+id/mlogo"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="70dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/app_name"
+                android:textSize="35sp"
+                android:layout_marginEnd="55dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/ps"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Patient Side"
+        android:layout_marginTop="250dp"
+        android:background="#866704"
+        android:textColor="#ffffff"/>
+    <Button
+        android:id="@+id/hs"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#ffffff"
+        android:background="#866704"
+        android:text="Hospital Side"/>
+
+
+
+</LinearLayout>

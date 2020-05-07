@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".ConsultActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="#00BCD4"
+        tools:ignore="MissingConstraints">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="350dp"
+                android:src="@drawable/ayush"
+                android:id="@+id/mlogo"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="70dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/app_name"
+                android:textSize="35sp"
+                android:layout_marginEnd="55dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp">
+
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout02"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/blogin"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="15dp"
+                        android:background="#866704"
+                        android:text="@string/women_s_health"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+                        android:id="@+id/b1login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/LinearLayout01"
+                        android:layout_alignBottom="@+id/LinearLayout01"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:background="#866704"
+                        android:text="@string/skin_hair"
+                        android:textColor="#ffffff" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout03"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout03"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/b2login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ffffff"
+                        android:background="#866704"
+                        android:text="@string/child_specialist"/>
+
+                    <Button
+                        android:id="@+id/b3login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/LinearLayout01"
+                        android:layout_alignBottom="@+id/LinearLayout01"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:background="#866704"
+                        android:text="@string/general_physician"
+                        android:textColor="#ffffff" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout04"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout04"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/b4login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ffffff"
+                        android:background="#866704"
+                        android:text="@string/dental_care"/>
+
+                    <Button
+                        android:id="@+id/b5login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/LinearLayout01"
+                        android:layout_alignBottom="@+id/LinearLayout01"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:background="#866704"
+                        android:text="@string/ent"
+                        android:textColor="#ffffff" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout05"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout05"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/b6login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ffffff"
+                        android:background="#866704"
+                        android:text="@string/homopathy"/>
+
+                    <Button
+                        android:id="@+id/b7login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/LinearLayout01"
+                        android:layout_alignBottom="@+id/LinearLayout01"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:background="#866704"
+                        android:text="@string/bone_and_points"
+                        android:textColor="#ffffff" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout06"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout06"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/b8login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ffffff"
+                        android:background="#866704"
+                        android:text="@string/sex_specialist"/>
+
+                    <Button
+                        android:id="@+id/b9login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/LinearLayout01"
+                        android:layout_alignBottom="@+id/LinearLayout01"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:background="#866704"
+                        android:text="@string/eye_specialist"
+                        android:textColor="#ffffff" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout07"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout07"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/b10login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ffffff"
+                        android:background="#866704"
+                        android:text="@string/digestive_issues"/>
+
+                    <Button
+                        android:id="@+id/b11login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/LinearLayout01"
+                        android:layout_alignBottom="@+id/LinearLayout01"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:background="#866704"
+                        android:text="@string/mental_wellness"
+                        android:textColor="#ffffff" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout08"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout08"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/b14login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ffffff"
+                        android:background="#866704"
+                        android:text="@string/physiotheraphy"/>
+
+                    <Button
+                        android:id="@+id/b15login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/LinearLayout01"
+                        android:layout_alignBottom="@+id/LinearLayout01"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:background="#866704"
+                        android:text="@string/diabetes_management"
+                        android:textColor="#ffffff" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout09"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout09"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/b16login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ffffff"
+                        android:background="#866704"
+                        android:text="@string/brain_and_nerves"/>
+
+                    <Button
+                        android:id="@+id/b17login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/LinearLayout01"
+                        android:layout_alignBottom="@+id/LinearLayout01"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:background="#866704"
+                        android:text="@string/kidney_and_urinary_issues"
+                        android:textColor="#ffffff" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout011"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout011"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/b18login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ffffff"
+                        android:background="#866704"
+                        android:text="@string/ayurvedha"/>
+
+                    <Button
+                        android:id="@+id/b19login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/LinearLayout01"
+                        android:layout_alignBottom="@+id/LinearLayout01"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:background="#866704"
+                        android:text="@string/general_surgery"
+                        android:textColor="#ffffff" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout012"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout012"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/b21login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ffffff"
+                        android:background="#866704"
+                        android:text="@string/lungs_and_breathing"/>
+
+                    <Button
+                        android:id="@+id/b22login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/LinearLayout01"
+                        android:layout_alignBottom="@+id/LinearLayout01"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:background="#866704"
+                        android:text="@string/heart"
+                        android:textColor="#ffffff" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout013"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout013"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/b20login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ffffff"
+                        android:background="#866704"
+                        android:text="@string/cancer"/>
+                    <Button
+                        android:id="@+id/b24login"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/LinearLayout01"
+                        android:layout_alignBottom="@+id/LinearLayout01"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:background="#866704"
+                        android:text="@string/general"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/RelativeLayout02"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/b23login"
+                        android:layout_width="330dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ffffff"
+                        android:background="#866704"
+                        android:text="@string/looking_for_more"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

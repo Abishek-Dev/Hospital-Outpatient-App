@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/lab"
+        android:icon="@drawable/images"
+        android:title="@string/lab"
+        />
+    <item
+        android:id="@+id/blood"
+        android:icon="@drawable/blood_drop"
+        android:title="@string/blood"
+        />
+
+
+    <item
+        android:id="@+id/map"
+        android:icon="@drawable/images"
+        android:title="@string/payment" />
+    <item
+        android:id="@+id/orders"
+        android:icon="@drawable/pill"
+        android:title="@string/orders"
+        />
+    <item
+        android:id="@+id/cosult"
+        android:icon="@drawable/pill"
+        android:title="@string/consultations"
+        />
+    <item
+        android:id="@+id/Mydoctors"
+        android:title="@string/my_doctors"
+        android:icon="@drawable/download"
+        />
+    <item
+        android:title="@string/medical_records"
+        android:id="@+id/med_records"
+        android:icon="@drawable/med_record"
+        />
+    <item
+        android:id="@+id/remind"
+        android:title="@string/reminders"
+        android:icon="@drawable/reminders"
+        />
+    <item
+        android:id="@+id/Read_About_Health"
+        android:title="@string/read_about_health"
+        android:icon="@drawable/health_books"
+        />
+    <item
+        android:id="@+id/Help_center"
+        android:title="@string/help_center"
+        android:icon="@drawable/help_center"
+        />
+</menu>
